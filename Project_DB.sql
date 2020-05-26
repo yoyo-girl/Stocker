@@ -82,25 +82,25 @@ CREATE TABLE `Project_test`.`legel_person＿index` (
   -- 股票代碼
   `season`            TINYINT UNSIGNED  NOT NULL,
   -- 年＆季
-  `net_income`          INT UNSIGNED    NULL,
+  `net_income`          DECIMAL(6,3) UNSIGNED    NULL,
   -- 稅後淨利
-  `total_assets`        INT UNSIGNED    NULL,
+  `total_assets`        DECIMAL(6,2) UNSIGNED    NULL,
   -- 資產總額
-  `operating_margin`      INT UNSIGNED    NULL,
+  `operating_margin`      DECIMAL(6,3) UNSIGNED    NULL,
   -- 營業毛利
-  `account_receivable`      DECIMAL(4,2)    NULL,
+  `account_receivable`      DECIMAL(6,2)    NULL,
   -- 應收帳款
-  `ROA`             DECIMAL(4,2)    NULL,
+  `ROA`             DECIMAL(5,2)    NULL,
   -- 本益比
-  `ROE`             DECIMAL(4,2)    NULL,
+  `ROE`             DECIMAL(5,2)    NULL,
   -- 股東權益報酬率
   `corrent_assets`        DECIMAL(5,1)    NULL,
   -- 流動資產
-  `current_liabilities`     DECIMAL(5,1)    NULL,
+  `current_liabilities`     DECIMAL(7,3)    NULL,
   -- 流動負債
-  `current_ratio`         DECIMAL(4,1)    NULL,
+  `current_ratio`         DECIMAL(7,2)    NULL,
   -- 速動比
-  `debt`            DECIMAL(5,1)    NULL,
+  `debt`            DECIMAL(6,2)    NULL,
   -- 總負債
   `stock_price_per`       DECIMAL(6,2)    NULL,
   -- 每股淨值
