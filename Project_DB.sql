@@ -104,7 +104,7 @@ CREATE TABLE `Project_test`.`legel_person＿index` (
   -- 總負債
   `stock_price_per`       DECIMAL(6,2)    NULL,
   -- 每股淨值
-  `share_capital`         INT UNSIGNED    NULL);
+  `share_capital`         DECIMAL(6,2) UNSIGNED    NULL);
   -- 股本
 
 
