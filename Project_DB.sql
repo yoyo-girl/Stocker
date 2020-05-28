@@ -9,13 +9,13 @@ CREATE TABLE `Project_test`.`daily_trade` (
   -- 股票代碼
   `date`                     DATE                NOT NULL,
   -- 交易日期
-  `open`                     DECIMAL(6,2)        NOT NULL,
+  `open`                     DECIMAL(7,2)        NOT NULL,
    -- 開盤價
-  `high`                     DECIMAL(6,2)        NOT NULL,
+  `high`                     DECIMAL(7,2)        NOT NULL,
    -- 最高價
-  `low`                      DECIMAL(6,2)        NOT NULL,
+  `low`                      DECIMAL(7,2)        NOT NULL,
    -- 最低價
-  `close`                    DECIMAL(6,2)        NOT NULL,
+  `close`                    DECIMAL(7,2)        NOT NULL,
  -- 收盤價  
   `volume`                   BIGINT              NOT NULL);
  -- 交易量
