@@ -1,5 +1,5 @@
 CREATE DATABASE Project_test;
--- 先不管ＰＫ ＦＫ
+
 -- version:1.1.1
 
 
